@@ -1,0 +1,26 @@
+body{
+    background-image: url(./piano_back_piano.jpg);
+    background-size: cover;
+
+}
+.piano{
+    display: flex;
+    margin: 6.5vw 4vw 2vw 7.8vw
+}
+.key{
+    min-width: 11.3vw;
+    min-height: 26.6vw;
+    border: 5px double rgb(163, 144, 144);
+    opacity: 0.35;
+}
+.piano p{
+    font-size: 4vw;
+    text-align: center;
+    margin: 11vw 0vw 11vw 0;
+}
+h1 {
+    margin-top: 3vw;
+    text-align: center;
+    color: #df00ae;
+    font-size: 40px;
+}
